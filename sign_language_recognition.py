@@ -5,7 +5,7 @@ import pathlib
 import numpy as np
 from keras.models import load_model
 
-MODEL_PATH = "./alphabet_model_5000.h5"
+MODEL_PATH = "models/alphabet_model_5000.h5"
 model = load_model(MODEL_PATH)
 CLASSES = {
     1:'A',
