@@ -12,8 +12,8 @@ Boston University
 * generateDataset.py contains code for recording images for use in model creation, as well as preprocessing images. Capture and preprocess mode can be accessed by running the script with the command line argument "capture" and "preprocess" respectively
 * signLanguageRecognition.py contains code for loading a model in .h5 format and classifying signs in real time. The model prints the predicted text to the screen
 ### Data
-* /alphabet contains a dataset of letters A-Z, excluding J and Z (as those require movement). Each of the 24 classes has 5000 images
-* /alphabet_preprocessed contains preprocessed images (cropped, shrunk, and grayscale) of the alphabet dataset, ready for use in model creation
+* /alphabet contains a dataset of letters A-Z, excluding J and Z (as those require movement). Each of the 24 classes has 5000 images (TOO LARGE TO UPLOAD, GOOGLE DRIVE)
+* /alphabet_preprocessed contains preprocessed images (cropped, shrunk, and grayscale) of the alphabet dataset, ready for use in model creation (TOO LARGE TO UPLOAD, GOOGLE DRIVE)
 * /words contains a dataset of several simple, static words in sign language, with 1000 images per class
 * /words_preprocessed contains preprocessed images (cropped, shrunk, and grayscale of the words dataset
 ### Demo
