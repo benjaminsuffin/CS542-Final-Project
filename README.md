@@ -7,7 +7,7 @@ Boston University
 ### Models
 * alphabet_model_5000_CNN.h5 
 * word_model_1000_CNN.h5
-* (put others here after they are trained)
+* SVMModel.ipynb
 ### Code
 * generateDataset.py contains code for recording images for use in model creation, as well as preprocessing images. Capture and preprocess mode can be accessed by running the script with the command line argument "capture" and "preprocess" respectively
 * signLanguageRecognition.py contains code for loading a model in .h5 format and classifying signs in real time. The model prints the predicted text to the screen
